@@ -1,4 +1,4 @@
->Transforma la informaciÃ³n un archivo MarkDown visual que funcione luego como una pagina principal
+>Transforma la información en un archivo MarkDown visual que funcione luego como una pagina principal
 
 >instala tailwind en el codigo
 
