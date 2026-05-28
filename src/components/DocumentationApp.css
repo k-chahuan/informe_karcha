@@ -76,6 +76,13 @@
     display: none;
   }
 
+  /* Mostrar etiquetas de navegación en móvil */
+  .nav-label {
+    display: inline-block;
+    color: #e5e7eb;
+    font-size: 0.95rem;
+  }
+
   .menu-toggle {
     display: inline-flex;
   }

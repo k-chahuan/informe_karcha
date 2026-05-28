@@ -69,9 +69,9 @@ export default function DocumentationApp() {
                   : 'text-slate-300 hover:bg-slate-800 hover:text-white'
               }`}
             >
-              <span className="flex items-center gap-2">
+                <span className="flex items-center gap-2">
                 <span className="text-xs font-bold w-5 text-center">{doc.order}</span>
-                <span className="hidden-mobile">{doc.name}</span>
+                <span className="nav-label">{doc.name}</span>
               </span>
             </button>
           ))}
