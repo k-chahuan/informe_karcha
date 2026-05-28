@@ -33,7 +33,7 @@ export default function Marco() {
 
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
         <div className="max-w-4xl mx-auto flex justify-between">
-          <span>Estudiante: [Karim Eduardo Chahuan Seguro]</span>
+          <span>Estudiante: [Karim Eduardo Chahuan Segura]</span>
           <span>Docente: Rubén Schnettler L. – INACAP Valparaíso</span>
         </div>
       </footer>
