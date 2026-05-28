@@ -16,7 +16,7 @@ El caso demuestra que la ciberseguridad no es un problema exclusivamente externo
 
 ### 2. La Deuda en la Custodia de Datos Sensibles
 La exfiltración de historiales médicos, psicológicos e identidades de funcionarios en la *dark web* expone la vulnerabilidad de las bases de datos estatales bajo la **Ley 19.628**.
-* Al perderse el control físico de la información, los **derechos ARCO** de los ciudadanos quedan completamente anulados frente a los cibercriminales[cite: 1].
+* Al perderse el control físico de la información, los **derechos ARCO** de los ciudadanos quedan completamente anulados frente a los cibercriminales.
 * Esta situación obliga al Estado a asumir una responsabilidad civil por negligencia institucional en su rol de custodio.
 
 >**Lección Estratégica:** El incidente resalta la urgencia ineludible de elevar los estándares de protección, anonimización y encriptación de datos sensibles alojados en infraestructuras críticas.
@@ -24,7 +24,7 @@ La exfiltración de historiales médicos, psicológicos e identidades de funcion
 ---
 
 ### 3. Rigor Metodológico en el Análisis de Incidentes
-Desde una perspectiva de gestión documental, el uso de herramientas de análisis avanzado e Inteligencia Artificial bajo un modelo de **agente analítico** (y no como un simple *chatbot*) resulta indispensable para procesar crisis complejas[cite: 1].
-* Como se rescata en la bitácora del caso, la correcta delimitación de la jurisdicción nacional y el mapeo milimétrico de los incisos legales son críticos[cite: 1].
+Desde una perspectiva de gestión documental, el uso de herramientas de análisis avanzado e Inteligencia Artificial bajo un modelo de **agente analítico** (y no como un simple *chatbot*) resulta indispensable para procesar crisis complejas.
+* Como se rescata en la bitácora del caso, la correcta delimitación de la jurisdicción nacional y el mapeo milimétrico de los incisos legales son críticos.
 
 >**Lección Estratégica:** Estructurar auditorías defensibles y precisas es la base fundamental para el éxito de futuras persecuciones penales y para impulsar reformas regulatorias efectivas en el país.

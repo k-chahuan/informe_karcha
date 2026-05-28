@@ -46,13 +46,27 @@ La inteligencia artificial realizó:
 - Enlace a github.
 - instrucciones.
 
+---
+
 #### En el marco de la página veo mi nombre completo de estudiante escrito mal en la ultima letra "Karim Eduardo Chahuan Seguro" cuando deberia ser "Karim Eduardo Chahuan Segura", que hago?
 
 - Busco las considencias con "Chahuan Seguro".
 - Corrijio "Chahuan Seguro" a "Chahuan Segura".
+
+---
 
 #### En el Marco abajo, al lado derecho de mi nombre crea un enlace a mi github.
 
 - Añadió el enlace.
 - Preguntó si queria que se viese un texto con mi nombre.
 - Agregó el texto.
+
+---
+
+#### Has que la página en general sea aun legible en celulares, ya que en un celular aunque carga bien la información dentro de cada pestaña el texto en el menu de navegación (ejemplo: 1 resumen, 2 marco digital, 3 delitos) se vuelve invisible.
+
+- Cambió etiquetas de nombre en entradas de navegación.
+- Añadió reglas CSS para que se muestre correctamente en móviles.
+- Recomendó formas rápidas de probar los cambios.
+
+---
