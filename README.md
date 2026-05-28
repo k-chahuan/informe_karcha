@@ -4,13 +4,47 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Informe Karcha — Proyecto de clase (React + Vite)
 
-## Expanding the ESLint configuration
+Sitio web construido con React y Vite para la asignatura **Fundamentos de Seguridad de la Información**. Contiene análisis, documentación y visualizaciones relacionadas con el caso de estudio.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Autor y créditos
+
+- **Autor:** k-chahuan — https://github.com/k-chahuan
+- **Profesor (créditos):** Rubén Schnettler L.
+
+## Estructura del proyecto
+
+- `src/` — código fuente React (componentes, estilos, assets).
+- `docs_karcha/` — archivos Markdown con contenido por sección (01_resumen_karcha.md, 02_marco_karcha.md, ...).
+- `public/` — copia pública de los Markdown para servir con Vite.
+
+## Cómo ejecutar el proyecto (desarrollo)
+
+Instala dependencias y levanta el servidor de desarrollo:
+
+```bash
+npm install
+npm run dev
+```
+
+Abre `http://localhost:5173` (o la URL que indique Vite) para ver la página.
+
+## Generar build (producción)
+
+```bash
+npm run build
+npm run preview
+```
+
+## Notas importantes
+
+- `01_Resumen_Karcha.md` se usa como página principal/referencia; las demás son subpáginas temáticas.
+- Si usas Tailwind, revisa `tailwind.config.js` para asegurarte de que escanee `src/` y `public/`.
+
+Si quieres, puedo:
+
+- Revisar los componentes que renderizan Markdown y aplicar estilos Tailwind.
+- Añadir un enlace visible al perfil de GitHub en la cabecera del sitio.
