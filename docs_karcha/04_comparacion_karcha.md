@@ -33,4 +33,4 @@ Al leerlo de forma lineal, se puede apreciar que el caso aborda tres dimensiones
 2. **La responsabilidad institucional de protección**, regulada por la Ley 19.628 respecto al Ejército de Chile por la filtración de datos.
 3. **La falta al deber militar**, regulada por el Código de Justicia Militar contra el funcionario interno que presuntamente colaboró o facilitó el acceso.
 
-```
+---
