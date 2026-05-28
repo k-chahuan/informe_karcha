@@ -1,8 +1,8 @@
 import './App.css'
-import Marco from './components/Marco.jsx'
+import DocumentationApp from './components/DocumentationApp.jsx'
 
 function App() {
-  return <Marco />
+  return <DocumentationApp />
 }
 
 export default App
