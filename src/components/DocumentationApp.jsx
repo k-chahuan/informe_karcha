@@ -157,7 +157,19 @@ export default function DocumentationApp() {
         {/* Footer */}
         <footer className="bg-slate-100 text-slate-600 text-sm py-6 px-6 border-t border-slate-200">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <span>Estudiante: Karim Eduardo Chahuan Segura</span>
+            <span className="flex items-center gap-2">
+              <span>Estudiante: Karim Eduardo Chahuan Segura</span>
+              <a
+                href="https://github.com/k-chahuan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2 text-slate-700 hover:text-slate-900 transition-colors text-sm font-medium"
+                aria-label="Perfil de GitHub de Karim Eduardo Chahuan Segura"
+                title="Abre en GitHub"
+              >
+                k-chahuan (GitHub)
+              </a>
+            </span>
             <span>Docente: Rubén Schnettler L. – INACAP Valparaíso</span>
             <span>{currentDocTitle}</span>
           </div>

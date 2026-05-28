@@ -1,4 +1,4 @@
-import { Shield, BookOpen, Github } from 'lucide-react'
+import { Shield, BookOpen } from 'lucide-react'
 
 export default function Marco() {
   return (
@@ -39,11 +39,11 @@ export default function Marco() {
               href="https://github.com/k-chahuan"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-2 inline-flex items-center gap-2 text-slate-700 hover:text-slate-900 transition-colors"
+              className="ml-2 text-slate-700 hover:text-slate-900 transition-colors text-sm font-medium"
               aria-label="Perfil de GitHub de Karim Eduardo Chahuan Segura"
+              title="Abre en GitHub"
             >
-              <Github size={18} />
-              <span className="ml-1 text-sm font-medium">k-chahuan</span>
+              k-chahuan (GitHub)
             </a>
           </span>
           <span>Docente: Rubén Schnettler L. – INACAP Valparaíso</span>

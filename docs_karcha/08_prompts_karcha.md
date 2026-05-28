@@ -51,8 +51,8 @@ La inteligencia artificial realizó:
 - Busco las considencias con "Chahuan Seguro".
 - Corrijio "Chahuan Seguro" a "Chahuan Segura".
 
-#### En el Marco abajo, al lado derecho de mi nombre crea un enlace a mi github con el logo, y de forma interactiva al dar click
+#### En el Marco abajo, al lado derecho de mi nombre crea un enlace a mi github.
 
-- Añadió el enlace interactivo.
+- Añadió el enlace.
 - Preguntó si queria que se viese un texto con mi nombre.
 - Agregó el texto.
