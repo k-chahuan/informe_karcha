@@ -1,7 +1,60 @@
->Transforma la información en un archivo MarkDown visual que funcione luego como una pagina principal
+## - Configurar Tailwind CSS en un proyecto Vite + React.
 
->instala tailwind en el codigo
+La inteligencia artificial realizó:
 
->Necesito que me ayudes a solucionar el siguente error: NOT_FOUND Last updated February 26, 2026 The NOT_FOUND error occurs when a requested resource could not be found..."
+1. Instalar dependencias:
 
->Puedes ayudarme a hacer que la informacion de los MarkDowns se muestren en la pantalla de la página siendo "01_Resumen_Karcha.md" la página principal y lo demas subpaginas bonitas a la vista
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+2. Añadir directivas en el CSS principal (por ejemplo `src/index.css` o `src/App.css`):
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+3. Configurar `tailwind.config.js` para escanear los archivos JSX/MDX/Markdown:
+
+```js
+module.exports = {
+	content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx,md,mdx}", "./public/**/*.md"],
+	theme: { extend: {} },
+	plugins: [],
+}
+```
+
+4. Reinicia el servidor de desarrollo (`npm run dev`) para verificar cambios.
+
+## - Diagnosticar y mitigar errores comunes (ej. `NOT_FOUND`).
+
+La inteligencia artificial realizó:
+
+El error `NOT_FOUND` indica que un recurso solicitado no existe en la ruta esperada. Pasos para diagnosticar y corregir:
+
+- Verificar rutas: comprueba que las rutas a archivos Markdown coincidan con la estructura del proyecto (`docs_karcha/` o `public/`).
+- Revisar logs del servidor: busca rutas 404 o errores de lectura de archivos.
+- Limpiar cachés y reinstalar dependencias si el error aparece tras una actualización:
+
+```bash
+rm -rf node_modules
+npm ci
+```
+
+## - Hacer que la página resumen funcione como página principal y las demás como subpáginas.
+
+La inteligencia artificial realizó:
+
+- Título y descripción breve.
+- Índice con enlaces a cada subpágina.
+
+## - Hacer que la página de promts mantenga el formato de las demas páginas.
+
+La inteligencia artificial realizó:
+
+- Modificación del texto.
+- Agrego comandos visuales.
+

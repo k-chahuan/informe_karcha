@@ -9,13 +9,3 @@ La filtración expuso información de alta sensibilidad para la seguridad nacion
 El caso derivó en una investigación de la Brigada del Cibercrimen de la PDI en conjunto con la Fiscalía Militar, resultando en la **detención de un cabo segundo del Ejército** por su presunta responsabilidad en la instalación del código malicioso dentro del sistema informático de la institución.
 
 ---
-### Más Información
-* [Marco Normativo](02_marco_karcha.md)
-* [Tipificación de Delitos](03_delitos_karcha.md)
-* [Matriz Comparativa](04_comparación_karcha.md)
-* [Responsabilidades Legales](05_responsabilidades_karcha.md)
-* [Tratamiento de Datos Personales](06_datos_karcha.md)
-* [Conclusiones sobre el Hackeo al Ejército de Chile](07_conclusiones_karcha.md)
-* [Prompts utilizados en IA para la página](08_prompts_karcha.md)
-
----
