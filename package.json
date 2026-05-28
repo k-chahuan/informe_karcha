@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node -e \"const fs = require('fs'); const path = require('path'); const docsDir = path.join(__dirname, 'docs_karcha'); const publicDir = path.join(__dirname, 'public'); if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true }); fs.readdirSync(docsDir).filter(f => f.endsWith('.md')).forEach(file => fs.copyFileSync(path.join(docsDir, file), path.join(publicDir, file)));\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
