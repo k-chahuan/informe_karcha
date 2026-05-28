@@ -157,7 +157,7 @@ export default function DocumentationApp() {
         {/* Footer */}
         <footer className="bg-slate-100 text-slate-600 text-sm py-6 px-6 border-t border-slate-200">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <span>Estudiante: Karim Eduardo Chahuan Seguro</span>
+            <span>Estudiante: Karim Eduardo Chahuan Segura</span>
             <span>Docente: Rubén Schnettler L. – INACAP Valparaíso</span>
             <span>{currentDocTitle}</span>
           </div>
